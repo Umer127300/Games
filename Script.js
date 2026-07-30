@@ -16,7 +16,8 @@ let secretNumber;
         
         // Allow Enter key to submit
         guessInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') checkGuess();
+            if (e.key === 'Enter') 
+                checkGuess();
         });
         
         function resetGame() {
